@@ -12,7 +12,8 @@ Check the live site **[here](https://geo-locator.netlify.app)**.
 ## Table of Contents
 - [Site walkthrough](#site-walkthrough)
 - [Brief](#brief)
-- [Playing](#playing)
+- [Information displayed](#information-displayed)
+- [Map](#map)
 - [Web App](#web-app)
 - [To-Do List](#to-do-list)
 - [External Libraries used](#external-libraries-used)
@@ -24,16 +25,17 @@ Check the live site **[here](https://geo-locator.netlify.app)**.
 ## Site Walkthrough
 Example of the site made:<br>
 
-<img src="assets/demos/walkthrough.gif" width=75%>
+<img src="assets/demos/walkthrough.gif" width=80%>
 
 ## Brief
 Geo-Locator is a website that will show you your geo-location details and a map with your current position.
-```
-Country: "Your country name"
-Address: "City, Region"
-Postal Code: "Postal code of your city"
-IP Address: "Your current IP Address"
-ISP: "Your currrent Internet Service Provider"
-Latitude: "Latitude of your location"
-Longitude: "Longitude of your location"
-```
+
+#### Information Displayed
+- Country: "Your country name"
+- Address: "City, Region"
+- Postal Code: "Postal code of your city/region"
+- IP Address: "Your current IP Address"
+- ISP: "Your currrent Internet Service Provider"
+- Latitude: "Latitude of your location"
+- Longitude: "Longitude of your location"
+- Red pin on the map shows your current position.
