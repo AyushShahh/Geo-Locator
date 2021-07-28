@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!--Common tags-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Your Geo-Location detalis">
+      <meta name="author" content="Ayush Shah">
+      <meta name="image" content="https://geo-locator.netlify.app/assets/favicons/android-chrome-512x512.png">
+      <meta name="theme-color" content="#000">
+      <meta http-equiv="content-type" content="text/html"/>
+
+      <!--Open graph tags-->
+      <meta property="og:title" content="Geo-Location">
+      <meta property="og:description" content="Your Geo-Location detalis">
+      <meta property="og:image" content="https://geo-locator.netlify.app/assets/favicons/android-chrome-512x512.png">
+      <meta property="og:url" content="https://geo-locator.netlify.app/">
+      <meta property="og:site_name" content="Geo-Location">
+      <meta property="og:type" content="website">
+
+      <!--Twitter-->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="Geo-Location">
+      <meta name="twitter:url" content="https://geo-locator.netlify.app/">
+      <meta name="twitter:description" content="Your Geo-Location detalis">
+      <meta name="twitter:image" content="https://geo-locator.netlify.app/assets/favicons/android-chrome-512x512.png">
+      <meta name="twitter:creator" content="@ayushshah__">
+         <title>Geo-Location</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="stylesheet" href="/css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+      <link rel="manifest" href="site.webmanifest">
+      <script async src="https://cdn.jsdelivr.net/npm/pwacompat" crossorigin="anonymous"></script>
+   </head>
+   <body onload="getLocation()">
+      <h1><u>Geo-Location Info</u></h1>
+
+      <div class="box">
+         <div><b>Country: </b><span id="country"></span></div>
+         <div><b>Address: </b><span id="address"></span></div>
+         <div><b>Postal Code: </b><span id="postal"></span></div>
+         <div><b>IP Address: </b><span id="ip"></span></div>
+         <div><b>ISP: </b><span id="org"></span></div>
+         <div id="loc"><b>Latitude: </b><br><b>Longitude: </b></div>
+         <div id="info"></div>
+      </div>
+
+      <div id="mapholder"></div>
+      <br><br>
+      <h1 id="footer">> Ayush.</h1>
+      
+      <script src="/scripts/location.js"></script>
+   </body>
+</html>
