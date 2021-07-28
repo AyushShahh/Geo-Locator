@@ -29,20 +29,20 @@ Check the live site **[here](https://geo-locator.netlify.app)**.
 ## Site Walkthrough
 Example of the site made:<br>
 
-<img src="assets/demos/walkthrough.gif" width=80%>
+<img src="assets/demos/walkthrough.gif" width=90%>
 
 ## Brief
 Geo-Locator is a website that will show your geo-location details and a map with your current position.
 
 ### Information Displayed
-- Country: "Your country name"
-- Address: "City, Region"
-- Postal Code: "Postal code of your city/region"
-- IP Address: "Your current IP Address"
-- ISP: "Your currrent Internet Service Provider"
-- Latitude: "Latitude of your location"
-- Longitude: "Longitude of your location"
-- Red pin on the map shows your current position.
+- **Country:** "Your country name"
+- **Address:** "City, Region"
+- **Postal Code:** "Postal code of your city/region"
+- **IP Address:** "Your current IP Address"
+- **** "Your currrent Internet Service Provider"
+- **Latitude:** "Latitude of your location"
+- **Longitude:** "Longitude of your location"
+- **Red pin** on the map shows your current position.
 
 ## Using the site
 When you open the site, press `Allow` if it asks for location to display the map and show accurate results.<br>
@@ -79,21 +79,25 @@ Now you can use this site as a **Web App**.<br>
 The process might be similar for other browsers too.
 
 ## Encountering an Error
-<b>"User denied the request for location.<br>Click allow to see your location on map."</b><br>
+```User denied the request for location.<br>Click allow to see your location on map.```
 This comes if you click `Deny` when asked for location access. Map won't be displayed and coordinates would be inaccurate.
-<p><b>"Map is currently unavailable.<br>Turn on your Location(GPS)."</b><br>
+
+```Map is currently unavailable.<br>Turn on your Location(GPS).```
 This comes when your location(GPS) is turned off or the application you are using don't have location permissions.<br>Turn on the location(GPS) or go to devices settings > Apps > Navigate to the app and give location permission.
-<p><b>"The request for map location timed out."</b><br>
+
+```The request for map location timed out.```
 This comes when the server takes too long to respond to your request, server might be down or your internet connectivity gets interrupted (you suddenly lose internet connection).
-<p><b>"An unknown error occurred."</b><br>
+
+```An unknown error occurred.```
 This comes when something unexpected happens.
-<p><b>"Geo-Location is not supported on this browser."</b><br>
+
+```Geo-Location is not supported on this browser.```
 This means that Geo-Location is not supported on the browser you are using. Map will not  be displayed and the coordinates shown won't be accurate.
 
 ## Tech-Stack
-1. Html5
-2. CSS3
-3. Javascript
+1. **HTML5**<br>
+2. **CSS3**<br>
+3. **JavaScript**<br>
 
 ## APIs used
 [Geolocation DB](https://geolocation-db.com) - It is used to get the information of a user's Country and IP Address in JSON format. __*(Available without location access)*__
@@ -120,7 +124,7 @@ The code won't work directly if you copy this code or clone this repository. If 
 - Go to [ipinfo.io](https://ipinfo.io) and create your account. You will get your API token there.
 - Go through [this documentation](https://developers.google.com/maps/documentation/javascript/get-api-key) for creating and using Google Maps API key.
 
-After you get your API key and token, paste them in place of ``` YOUR_KEY/TOKEN ``` in location.js file.
+After you get your API key and token, paste them in place of ``` YOUR_KEY/TOKEN ``` in **location.js** file inside **scripts** folder.
 
 Paste your Google maps API key in: <br>
 
