@@ -39,7 +39,7 @@ Geo-Locator is a website that will show your geo-location details and a map with
 - **Address:** "City, Region"
 - **Postal Code:** "Postal code of your city/region"
 - **IP Address:** "Your current IP Address"
-- **** "Your currrent Internet Service Provider"
+- **ISP:** "Your currrent Internet Service Provider"
 - **Latitude:** "Latitude of your location"
 - **Longitude:** "Longitude of your location"
 - **Red pin** on the map shows your current position.
@@ -136,14 +136,14 @@ The code won't work directly if you copy this code or clone this repository. If 
 - Go to [ipinfo.io](https://ipinfo.io) and create your account. You will get your API token there.
 - Go through [this documentation](https://developers.google.com/maps/documentation/javascript/get-api-key) for creating and using Google Maps API key.
 
-After you get your API key and token, paste them in place of ``` YOUR_KEY/TOKEN ``` in **location.js** file inside **scripts** folder.
+After you get your API key and token, paste them in **location.js** file inside **scripts** folder like this:
 
-Paste your Google maps API key in: <br>
+Google maps API key in: <br>
 
 ```javascript
 const map_api = "YOUR_KEY";
 ```
-and your ipinfo token in:
+and ipinfo token in:
 ```javascript
 const geoinfo_token = "YOUR_TOKEN";
 ```
@@ -167,7 +167,7 @@ If you find a bug, you can always **open an issue** in the [issues tab](https://
 Pull requests are always welcome. But before making any major changes you can open an [issue](https://github.com/AyushShahh/Geo-Locator/issues) to discuss.<br>
 For less major or minor changes, you can open a [pull request](https://github.com/AyushShahh/Geo-Locator/pulls).
 
-Make sure you see the [instructions](#instructions-for-using-this-code) for using this code if you want test or use it.
+Make sure you see the [instructions](#instructions-for-using-this-code) for using this code.
 
 **Thanks for contributing.**
 
