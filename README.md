@@ -24,7 +24,7 @@ Check the live site **[here](https://geo-locator.netlify.app)**.
 ## Site Walkthrough
 Example of the site made:<br>
 
-<img src="assets/demos/walkthrough.gif">
+<img src="assets/demos/walkthrough.gif" width=75%>
 
 ## Brief
 Geo-Locator is a website that will show you your geo-location details and a map with your current position.
