@@ -83,23 +83,23 @@ The process might be similar for other browsers too.
 User denied the request for location.
 Click allow to see your location on map.
 ```
-This comes if you click `Deny` when asked for location access. Map won't be displayed and coordinates would be inaccurate.
+This comes if you click `Deny` when asked for location access. Map won't be displayed and coordinates would be inaccurate.<br><br>
 
 ```
 Map is currently unavailable.
 Turn on your Location(GPS).
 ```
-This comes when your location(GPS) is turned off or the application you are using don't have location permissions.<br>Turn on the location(GPS) or go to devices settings > Apps > Navigate to the app and give location permission.
+This comes when your location(GPS) is turned off or the application you are using don't have location permissions.<br>Turn on the location(GPS) or go to devices settings > Apps > Navigate to the app and give location permission.<br><br>
 
 ```
 The request for map location timed out.
 ```
-This comes when the server takes too long to respond to your request, server might be down or your internet connectivity gets interrupted (you suddenly lose internet connection).
+This comes when the server takes too long to respond to your request, server might be down or your internet connectivity gets interrupted (you suddenly lose internet connection).<br><br>
 
 ```
 An unknown error occurred.
 ```
-This comes when something unexpected happens.
+This comes when something unexpected happens.<br><br>
 
 ```
 Geo-Location is not supported on this browser.
