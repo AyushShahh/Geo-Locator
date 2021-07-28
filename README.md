@@ -79,19 +79,31 @@ Now you can use this site as a **Web App**.<br>
 The process might be similar for other browsers too.
 
 ## Encountering an Error
-```User denied the request for location.<br>Click allow to see your location on map.```
+```
+User denied the request for location.
+Click allow to see your location on map.
+```
 This comes if you click `Deny` when asked for location access. Map won't be displayed and coordinates would be inaccurate.
 
-```Map is currently unavailable.<br>Turn on your Location(GPS).```
+```
+Map is currently unavailable.
+Turn on your Location(GPS).
+```
 This comes when your location(GPS) is turned off or the application you are using don't have location permissions.<br>Turn on the location(GPS) or go to devices settings > Apps > Navigate to the app and give location permission.
 
-```The request for map location timed out.```
+```
+The request for map location timed out.
+```
 This comes when the server takes too long to respond to your request, server might be down or your internet connectivity gets interrupted (you suddenly lose internet connection).
 
-```An unknown error occurred.```
+```
+An unknown error occurred.
+```
 This comes when something unexpected happens.
 
-```Geo-Location is not supported on this browser.```
+```
+Geo-Location is not supported on this browser.
+```
 This means that Geo-Location is not supported on the browser you are using. Map will not  be displayed and the coordinates shown won't be accurate.
 
 ## Tech-Stack
