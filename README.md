@@ -107,6 +107,7 @@ Geo-Location is not supported on this browser.
 This means that Geo-Location is not supported on the browser you are using. Map will not  be displayed and the coordinates shown won't be accurate.
 
 ## Tech-Stack
+Languages used:
 1. **HTML5**<br>
 2. **CSS3**<br>
 3. **JavaScript**<br>
@@ -118,7 +119,7 @@ This means that Geo-Location is not supported on the browser you are using. Map 
 
 [HTML Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) - The HTML Geolocation API is used to get the geographical position of a user if they allowed. Here it is used by default to show Latitude and Longitude because it is mostly accurate. __*(Not available without location access)*__
 
-[Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) - The Maps Embed API lets you place an interactive map on your web page. To make this map dynamic for this website, *HTML Geolocation API* is used to obtain the coordinates of the user. __*(Not available without location access)*__
+[Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) - The Maps Embed API lets you place an interactive map on your web page. To make the map dynamic for this website, *HTML Geolocation API* is used to obtain the coordinates of the user and then those coordinates are placed in the map source. __*(Not available without location access)*__
 
 ## External Libraries used
 [jQuery](https://jquery.com/) - jQuery is a JavaScript library. Here it is used for fetching the data in JSON format from APIs and putting those values in html.
