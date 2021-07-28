@@ -4,9 +4,15 @@ var z = document.getElementById("info");
 const map_api = "YOUR_KEY";
 const geoinfo_token = "YOUR_TOKEN";
 
+var options = {
+   enableHighAccuracy: true,
+   timeout: 5000,
+   maximumAge: 0
+ };
+
 function getLocation() {
    if (navigator.geolocation) {
-     navigator.geolocation.getCurrentPosition(showPosition,showError);
+     navigator.geolocation.getCurrentPosition(showPosition,showError,options);
    } else { 
       z.innerHTML = "<br><br><b>Geo-Location is not supported on this browser.</b>";
    }
