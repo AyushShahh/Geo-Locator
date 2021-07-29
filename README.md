@@ -89,12 +89,12 @@ This comes if you click `Deny` when asked for location access. Map won't be disp
 Map is currently unavailable.
 Turn on your Location(GPS).
 ```
-This comes when your location(GPS) is turned off or the application you are using don't have location permissions.<br>Turn on the location(GPS) or go to devices settings > Apps > Navigate to the app and give location permission.<br><br>
+This comes when your location(GPS) is turned off or the application you are using don't have location permission.<br>Turn on your location(GPS) or go to devices settings > Apps > Navigate to the app and give location permission.<br><br>
 
 ```
 The request for map location timed out.
 ```
-This comes when the server takes too long to respond to your request, server might be down or your internet connectivity gets interrupted (you suddenly lose internet connection).<br><br>
+This comes when the server takes too long to respond to your request, server might be down or your request gets interrupted (you suddenly lose internet connection or gps).<br><br>
 
 ```
 An unknown error occurred.
