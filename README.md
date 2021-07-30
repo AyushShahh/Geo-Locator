@@ -8,7 +8,7 @@
 
 Get your **geo-location** details with **live position** on map.<br>
 Check the live site **[here](https://geo-locator.netlify.app)**.
-**<p>For using this code check [instructions](#instructions-for-using-this-code).**
+**<p>For using this code, check [instructions](#instructions-for-using-this-code).**
 
 ## Table of Contents
 - [Site walkthrough](#site-walkthrough)
@@ -119,7 +119,7 @@ Languages used:
 
 [HTML Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) - The HTML Geolocation API is used to get the geographical position of a user if they allowed. Here it is used by default to show Latitude and Longitude because it is mostly accurate. __*(Not available without location access)*__
 
-[Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) - The Maps Embed API lets you place an interactive map on your web page. To make the map dynamic for this website, *HTML Geolocation API* is used to obtain the coordinates of the user and then those coordinates are placed in the map source. __*(Not available without location access)*__
+[Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) - The Maps Embed API lets you place an interactive map on your web page. To make the map dynamic for this website, *HTML Geolocation API* has been used here to obtain the coordinates of the user and then those coordinates are placed in the map source. __*(Not available without location access)*__
 
 ## External Libraries used
 [jQuery](https://jquery.com/) - jQuery is a JavaScript library. Here it is used for fetching the data in JSON format from APIs and putting those values in html.
@@ -132,7 +132,7 @@ Read more on their [blog](https://developers.google.com/web/updates/2018/07/pwac
 - [ ] Adding some more functionality and features
 
 ## Instructions for using this code
-The code won't work directly if you copy this code or clone this repository. If you want to use this code, you will need your own API key and token for the code to work properly.<br>
+The code **won't work directly** if you copy this code or clone this repository. If you want to use this code, you will need your **own API key and token** for the code to work properly.<br>
 
 - Go to [ipinfo.io](https://ipinfo.io) and create your account. You will get your API token there.
 - Go through [this documentation](https://developers.google.com/maps/documentation/javascript/get-api-key) for creating and using Google Maps API key.
