@@ -27,6 +27,7 @@ Check the live site **[here](https://geo-locator.netlify.app)**.
 - [Got some questions?](#got-some-questions)
 - [Found a bug?](#found-a-bug)
 - [Contributing](#contributing)
+- [LICENSE](#license-)
 - [Contact](#contact)
 
 ## Site Walkthrough
@@ -174,6 +175,9 @@ For less major or minor changes, you can open a [pull request](https://github.co
 Make sure you see the [instructions](#instructions-for-using-this-code) for using this code.
 
 **Thanks for contributing.**
+ 
+## LICENSE 🛡️
+This project is licensed under the MIT License - see the **[LICENSE](https://github.com/AyushShahh/Geo-Locator/blob/main/LICENSE)** file for details.
 
 # Contact
 I don't like spams
