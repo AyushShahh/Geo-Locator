@@ -27,7 +27,7 @@ Check the live site **[here](https://geo-locator.netlify.app)**.
 - [Got some questions?](#got-some-questions)
 - [Found a bug?](#found-a-bug)
 - [Contributing](#contributing)
-- [LICENSE](#license-)
+- [LICENSE](#license-%EF%B8%8F)
 - [Contact](#contact)
 
 ## Site Walkthrough
