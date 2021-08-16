@@ -1,6 +1,6 @@
 # Geo-Locator ![logo](assets/favicons/favicon-32x32.png)
 
-[![GitHub license](https://img.shields.io/github/license/AyushShahh/Geo-Locator?color=red&style=flat-square)](https://github.com/AyushShahh/Geo-Locator/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/AyushShahh/Geo-Locator?color=red&style=flat)](https://github.com/AyushShahh/Geo-Locator/blob/main/LICENSE)
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAyushShahh%2FGeo-Locator&count_bg=%23000000&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=views&edge_flat=true)](https://hits.seeyoufarm.com)
 [![GitHub stars](https://img.shields.io/github/stars/AyushShahh/Geo-Locator?&style=flat-square)](https://github.com/AyushShahh/Geo-Locator/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/AyushShahh/Geo-Locator?&style=flat-square)](https://github.com/AyushShahh/Geo-Locator/network)
@@ -177,7 +177,7 @@ Make sure you see the [instructions](#instructions-for-using-this-code) for usin
 **Thanks for contributing.**
  
 ## LICENSE 🛡️
-This project is licensed under the MIT License - see the **[LICENSE](https://github.com/AyushShahh/Geo-Locator/blob/main/LICENSE)** file for details.
+This project is licensed under the MIT License - see the **[`LICENSE`](https://github.com/AyushShahh/Geo-Locator/blob/main/LICENSE)** file for details.
 
 # Contact
 I don't like spams
