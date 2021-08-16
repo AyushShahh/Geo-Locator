@@ -141,7 +141,7 @@ The code **won't work directly** if you copy this code or clone this repository.
 - Go to [ipinfo.io](https://ipinfo.io) and create your account. You will get your API token there.
 - Go through [this documentation](https://developers.google.com/maps/documentation/javascript/get-api-key) for creating and using Google Maps API key.
 
-After you get your API key and token, paste them in **location.js** file inside **scripts** folder like this:
+After you get your API key and token, paste them in [**`location.js`**](https://github.com/AyushShahh/Geo-Locator/blob/main/scripts/location.js) file inside **scripts** folder like this:
 
 Google maps API key in: <br>
 
